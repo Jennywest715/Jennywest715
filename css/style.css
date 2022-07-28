@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Joan&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ibarra+Real+Nova&family=Joan&family=Mochiy+Pop+One&family=Playfair+Display:wght@500;700&family=Roboto:wght@700&display=swap');
+
+.navbar-brand {
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    font-family: 'Mochiy Pop One', sans-serif !important;
+    
+}
+.collapse {
+    font-family: 'Mochiy Pop One', sans-serif !important;
+    
+}
+.navbar-dark {
+    height:7rem;
+}
+/* .navbar-brand {
+    color:#895e97 !important;
+}
+.nav-link:hover {
+    color:#895e97 !important;   
+} */
+.bg-dark {
+    background-image: url(/Jennywest715/img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer {
+    display:inline-flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    padding: 25px;
+    width:100%;
+    height: auto;
+}
+.fa-brands {
+    font-size: 3rem;
+    color:black;
+}
+.fa-brands:hover {
+    color:#895e97
+}
+
