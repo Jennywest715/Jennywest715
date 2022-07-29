@@ -14,11 +14,11 @@
 .navbar-dark {
     height:7rem;
 }
-/* .navbar-brand {
-    color:#895e97 !important;
+.nav-link {
+    color:white !important;
 }
 .nav-link:hover {
-    color:#895e97 !important;   
+    color:blueviolet !important;   
 } */
 .bg-dark {
     background-image: url(/Jennywest715/img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
@@ -34,12 +34,26 @@
     padding: 25px;
     width:100%;
     height: auto;
+    font-weight: 700;
+    /* font-family: 'Joan', serif; */
 }
 .fa-brands {
     font-size: 3rem;
-    color:black;
+    color:blueviolet;
+}
+.fa-solid {
+    font-size: 3rem;
+    color:gray;
+
 }
 .fa-brands:hover {
     color:#895e97
+}
+.fa-solid:hover {
+    color:#895e97
+}
+.right {
+    align-items: center;
+    justify-content: center;
 }
 
