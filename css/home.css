@@ -3,45 +3,4 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) { */
 
-.carousel {
-    position: relative;
-}
 
-.carousel-item {
-    height:50rem;
-    min-height:300px;
-    background:no-repeat scroll center scroll;
-    -webkit-background-size:cover;
-    background-size: cover;
-}
-.carousel-item::before{
-    content:"";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #000;
-    opacity: 0.5;
-}
-.carousel-caption{
-    bottom:180px;
-    padding-left:100px;
-    padding-right:100px;
-}
-.carousel-caption h5{
-    font-size: 4rem;
-    font-weight: 700;
-}
-.carousel-caption p{
-    font-size: 2rem;
-    top:2rem;
-    font-family: 'Joan', serif;
-}
-.bg-dark {
-    background-image: url(/Jennywest715/img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}

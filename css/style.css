@@ -32,14 +32,14 @@
     position: absolute;
     display:inline-flex;
     justify-content: space-around;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 0;
     padding: 25px;
     width:100%;
     height: auto;
     bottom:0;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 .fa-brands {
     font-size: 3rem;
@@ -67,9 +67,10 @@
   right: 0;
   width: 100%;
   min-height: 100vh;
-  padding: 100px;
+  padding: 5rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: space-between; */
   align-items: center;
   background: #111;
   transition: 0.5s;
@@ -78,6 +79,14 @@
 .showcase.active
 {
   right: 300px;
+}
+.showcase nav{
+    position:absolute;
+    margin-top: 0;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:1rem 2rem;
 }
 
 .showcase video
@@ -103,10 +112,13 @@
 .text
 {
   position: relative;
-  display:block;
+  padding:15rem;
+  margin-bottom:9rem;
+  display:block;  
   justify-content: center;
   align-items: center;
   z-index: 10;
+  font-family: 'Poppins', sans-serif;
 }
 
 .text h2
@@ -151,4 +163,63 @@
 {
   letter-spacing: 6px;
 }
-
+.about h3{
+  position: relative;
+  padding:3rem;
+  display:block;  
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  font-size: 3rem;
+  font-weight: 700;
+  color: whitesmoke;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.carousel-item {
+    height:50rem;
+    min-height:300px;
+    background:no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.5;
+}
+.carousel-caption{
+    bottom:180px;
+    padding-left:100px;
+    padding-right:100px;
+}
+.carousel-caption h5{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 2rem;
+    top:2rem;
+    font-family: 'Joan', serif;
+}
+.resume h3{
+    position: relative;
+    padding:3rem;
+    display:block;  
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    font-size: 3rem;
+    font-weight: 700;
+    color: whitesmoke;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+  }
