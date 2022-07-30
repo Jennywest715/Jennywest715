@@ -114,7 +114,7 @@ section {
 .text
 {
   position: relative;
-  padding:10rem;
+  padding:4rem;
   margin-bottom:9rem;
   display:block;  
   justify-content: center;
@@ -203,7 +203,7 @@ section {
     padding-right:100px;
 }
 .carousel-caption h5{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 .carousel-caption p{
