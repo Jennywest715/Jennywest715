@@ -17,7 +17,7 @@
     height:7rem;
 }
 .nav-link {
-    color:white !important;
+    color:#0dcaf0 !important;
 }
 .nav-link:hover {
     color:blueviolet !important;   
@@ -27,19 +27,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-.footer {
-    position: absolute;
-    display:inline-flex;
-    justify-content: space-around;
-    margin-top: 4rem;
-    margin-bottom: 0;
-    padding: 25px;
-    width:100%;
-    height: auto;
-    bottom:0;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif !important;
 }
 .fa-brands {
     font-size: 3rem;
@@ -212,6 +199,7 @@
 .resume h3{
     position: relative;
     padding:3rem;
+    margin-top: 4rem;
     display:block;  
     justify-content: center;
     align-items: center;
@@ -222,4 +210,71 @@
     line-height: 1em;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-  }
+}
+.info {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border:round;
+    margin: 5rem;
+    border-radius: 5px;
+    background-image: url(/Jennywest715/img/theodor-vasile-y5WLkDYTwS0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    width:50%;
+    height: 40rem;
+    z-index: 10;
+}
+.contact h3 {
+    font-size: 3rem;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.contact label {
+    position: relative;
+    display: flex;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+.contact input {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+.music {
+    margin:5rem;
+}
+
+.footer {
+    position: absolute;
+    display:inline-flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    padding: 25px;
+    width:100%;
+    height: auto;
+    bottom:0;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif !important;
+}
+h5 {
+    color:#03a9f4 !important;
+}
+h4 {
+    color:#03a9f4 !important;
+}
