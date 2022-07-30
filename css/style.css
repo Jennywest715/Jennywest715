@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ibarra+Real+Nova&family=Joan&family=Mochiy+Pop+One&family=Playfair+Display:wght@500;700&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ibarra+Real+Nova&family=Joan&family=Mochiy+Pop+One&family=Playfair+Display:wght@500;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@700&display=swap');
 
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) { */
+
 
 .navbar-brand {
     font-size: 3rem !important;
@@ -22,12 +27,6 @@
 .nav-link:hover {
     color:blueviolet !important;   
 }
-.bg-dark {
-    background-image: url(/Jennywest715/img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .fa-brands {
     font-size: 3rem;
     color:blueviolet;
@@ -46,6 +45,20 @@
 .right {
     align-items: center;
     justify-content: center;
+}
+.home h3 {
+    position: relative;
+    padding:3rem;
+    display:block;  
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom:0;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
 }
 
 .showcase
@@ -99,7 +112,7 @@
 .text
 {
   position: relative;
-  padding:15rem;
+  padding:10rem;
   margin-bottom:9rem;
   display:block;  
   justify-content: center;
@@ -216,6 +229,11 @@
     z-index: 10;
     display: flex;
     justify-content: center;
+
+}
+.responsive {
+    width: 100%;
+    height: auto; 
 }
 .contact {
     position:relative;
