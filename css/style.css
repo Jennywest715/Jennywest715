@@ -7,7 +7,6 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) { */
 
-
 .navbar-brand {
     font-size: 3rem !important;
     font-weight: 700 !important;
@@ -53,14 +52,17 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
-    font-size: 5rem;
+    font-size: 3git adrem;
     font-weight: 700;
     margin-bottom:0;
     color: whitesmoke;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 }
-
+section {
+    margin-top: 0 !important;
+    padding-top:1rem !important;
+}
 .showcase
 {
   position: absolute;
