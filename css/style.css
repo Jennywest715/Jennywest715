@@ -70,25 +70,23 @@ section {
     margin-top: 0 !important;
     padding-top:1rem !important;
 }
-.showcase
-{
-  position: absolute;
-  right: 0;
-  width: 100%;
-  min-height: 100vh;
-  padding: 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #111;
-  transition: 0.5s;
-  z-index: 2;
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #111;
+    transition: 0.5s;
+    z-index: 2;
 }
-.showcase.active
-{
-  right: 300px;
+.showcase.active {
+    right: 300px;
 }
-.showcase nav{
+.showcase nav {
     position:absolute;
     margin-top: 0;
     top:0;
@@ -97,95 +95,86 @@ section {
     padding:1rem 2rem;
 }
 
-.showcase video
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.8;
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
 }
-.overlay
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #018cff;
-  mix-blend-mode: overlay;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #018cff;
+    mix-blend-mode: overlay;
 }
-.text
-{
-  position: relative;
-  padding:4rem;
-  margin-bottom:9rem;
-  display:block;  
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-  font-family: 'Poppins', sans-serif;
+.text {
+    position: relative;
+    padding:4rem;
+    margin-bottom:9rem;
+    display:block;  
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    font-family: 'Poppins', sans-serif;
 }
-
-.text h2
-{
-  font-size: 5em;
-  font-weight: 800;
-  color: #fff;
-  line-height: 1em;
-  text-transform: uppercase;
+.text h2 {
+    font-size: 5em;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
 }
-.text h3
-{
-  font-size: 4em;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1em;
-  text-transform: uppercase;
+.text h3 {
+    font-size: 4em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
 }
-.text p
-{
-  font-size: 1.5em;
-  color: #fff;
-  margin: 20px 0;
-  font-weight: 400;
-  max-width: 700px;
+.text p {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
 }
-.text a
-{
-  display: inline-block;
-  font-size: 1em;
-  background: #fff;
-  padding: 10px 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 10px;
-  color: #111;
-  letter-spacing: 2px;
-  transition: 0.2s;
+.text a {
+    display: inline-block;
+    font-size: 1em;
+    background: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #111;
+    letter-spacing: 2px;
+    transition: 0.2s;
 }
-.text a:hover
-{
-  letter-spacing: 6px;
+.text a:hover {
+    letter-spacing: 6px;
 }
 
 /* ABOUT MENU */
-.about h3{
-  position: relative;
-  padding:3rem;
-  display:block;  
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-  font-size: 3rem;
-  font-weight: 700;
-  color: whitesmoke;
-  line-height: 1em;
-  text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
+.about h3 {
+    position: relative;
+    padding:3rem;
+    display:block;  
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    font-size: 3rem;
+    font-weight: 700;
+    color: whitesmoke;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
 }
 .carousel-item {
     height:75%;
@@ -194,7 +183,7 @@ section {
     -webkit-background-size:cover;
     background-size: cover;
 }
-.carousel-item::before{
+.carousel-item::before {
     content:"";
     display: block;
     position: absolute;
@@ -205,23 +194,23 @@ section {
     background: #000;
     opacity: 0.5;
 }
-.carousel-caption{
+.carousel-caption {
     bottom:180px;
     padding-left:100px;
     padding-right:100px;
 }
-.carousel-caption h5{
+.carousel-caption h5 {
     font-size: 3rem;
     font-weight: 700;
 }
-.carousel-caption p{
+.carousel-caption p {
     font-size: 2rem;
     top:2rem;
     font-family: 'Joan', serif;
 }
 
 /* RESUME MENU */
-.resume h3{
+.resume h3 {
     position: relative;
     padding:3rem;
     margin-top: 4rem;
@@ -293,8 +282,6 @@ section {
     z-index: 10;
     font-family: 'Mochiy Pop One', sans-serif;
 }
-
-/* FOOTER MENU */
 .footer {
     position: absolute;
     display:inline-flex;
@@ -309,9 +296,9 @@ section {
     font-family: 'Poppins', sans-serif !important;
 }
 .footer h5 {
-    color:black !important;
+    color:white !important;
 }
 h4 {
-    color:black !important;
+    color:white !important;
 }
 
