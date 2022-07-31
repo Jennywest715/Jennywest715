@@ -204,6 +204,7 @@ section {
 .carousel-caption {
     max-height: 99%;
     min-height: 1%;
+    
     bottom:180px;
     padding-left:10%;
     padding-right:10%;
