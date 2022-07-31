@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Joan&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ibarra+Real+Nova&family=Joan&family=Mochiy+Pop+One&family=Playfair+Display:wght@500;700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ibarra+Real+Nova&family=Joan&family=Mochiy+Pop+One&family=Playfair+Display:wght@500;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@700&display=swap');
+
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.text
+{
+  position: relative;
+  padding:20rem;
+  margin-bottom:9rem;
+  display:block;  
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  font-family: 'Poppins', sans-serif;
+  opacity: 0.8;
+}
+
+.text h2
+{
+  font-size: 5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #018cff;
+}
+.text h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #018cff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 2em;
+  color: black;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 2em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover {
+  letter-spacing: 6px;
+  color: red;
+}
