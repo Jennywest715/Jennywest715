@@ -202,9 +202,11 @@ section {
     opacity: 0.5;
 }
 .carousel-caption {
+    max-height: 99%;
+    min-height: 1%;
     bottom:180px;
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:10%;
+    padding-right:10%;
 }
 .carousel-caption h5 {
     font-size: 3em;
@@ -212,7 +214,7 @@ section {
 }
 .carousel-caption p {
     font-size: 2em;
-    top:2rem;
+    top:2em;
     font-family: 'Joan', serif;
 }
 
