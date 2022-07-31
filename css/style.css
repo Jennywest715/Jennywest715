@@ -7,6 +7,8 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) { */
 
+
+/* NAVBAR MENU */
 .navbar-brand {
     font-size: 3rem !important;
     font-weight: 700 !important;
@@ -14,8 +16,10 @@
     
 }
 .collapse {
-    font-family: 'Mochiy Pop One', sans-serif !important;
-    
+    font-family: 'Mochiy Pop One', sans-serif !important;  
+}
+.nav-item a {
+    font-size: 2rem;
 }
 .navbar-dark {
     height:7rem;
@@ -24,6 +28,7 @@
     color:#0dcaf0 !important;
 }
 .nav-link:hover {
+    letter-spacing: 6px;
     color:blueviolet !important;   
 }
 .fa-brands {
@@ -45,6 +50,8 @@
     align-items: center;
     justify-content: center;
 }
+
+/* HOME MENU */
 .home h3 {
     position: relative;
     padding:3rem;
@@ -72,7 +79,6 @@ section {
   padding: 5rem;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
   background: #111;
   transition: 0.5s;
@@ -108,7 +114,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a9f4;
+  background: #018cff;
   mix-blend-mode: overlay;
 }
 .text
@@ -165,6 +171,8 @@ section {
 {
   letter-spacing: 6px;
 }
+
+/* ABOUT MENU */
 .about h3{
   position: relative;
   padding:3rem;
@@ -211,6 +219,8 @@ section {
     top:2rem;
     font-family: 'Joan', serif;
 }
+
+/* RESUME MENU */
 .resume h3{
     position: relative;
     padding:3rem;
@@ -231,8 +241,8 @@ section {
     z-index: 10;
     display: flex;
     justify-content: center;
-
 }
+/* CONTACT MENU */
 .responsive {
     width: 100%;
     height: auto; 
@@ -284,7 +294,7 @@ section {
     font-family: 'Mochiy Pop One', sans-serif;
 }
 
-
+/* FOOTER MENU */
 .footer {
     position: absolute;
     display:inline-flex;
@@ -304,6 +314,4 @@ section {
 h4 {
     color:black !important;
 }
-.nav-item a {
-    font-size: 2rem;
-}
+
