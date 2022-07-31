@@ -45,7 +45,7 @@
     color: #018cff;
 }
 .text h3 {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 700;
     color: #018cff;
     line-height: 1em;
@@ -76,7 +76,7 @@
   color: red;
 }
 .footer {
-    position: absolute;
+    position: relative;
     display:inline-flex;
     justify-content: space-around;
     margin-top: 4rem;
