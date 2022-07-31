@@ -4,10 +4,9 @@
 
 html, body {
     height:100%;
-    width:100%;
 }
 .showcase {
-    position: absolute;
+    position: relative;
     right: 0;
     width: 100%;
     min-height: 100%;
