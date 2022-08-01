@@ -7,7 +7,9 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) { */
 
-
+* {
+    box-sizing: border-box;
+}
 /* NAVBAR MENU */
 .navbar {
     background:none;
@@ -32,15 +34,15 @@
     background:none !important;
 }
 .nav-link:hover {
-    letter-spacing: 4px;
+    letter-spacing: 0.3em;
     color:blueviolet !important;   
 }
 .fa-brands {
-    font-size: 3rem;
+    font-size: 3em;
     color:blueviolet;
 }
 .fa-solid {
-    font-size: 3rem;
+    font-size: 3em;
     color:gray;
 
 }
@@ -62,7 +64,7 @@ li {
 /* HOME MENU */
 .home h3 {
     position: relative;
-    padding:3rem;
+    padding:3em;
     display:block;  
     justify-content: center;
     align-items: center;
@@ -76,14 +78,14 @@ li {
 }
 section {
     margin-top: 0 !important;
-    padding-top:1rem !important;
+    padding-top:1em !important;
 }
 .showcase {
     position: absolute;
     right: 0;
     width: 100%;
     min-height: 100vh;
-    padding: 5rem;
+    padding: 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,16 +93,13 @@ section {
     transition: 0.5s;
     z-index: 2;
 }
-.showcase.active {
-    right: 300px;
-}
 .showcase nav {
     position:absolute;
     margin-top: 0;
     top:0;
     left:0;
     width: 100%;
-    padding:1rem 2rem;
+    padding:1em 2em;
 }
 
 .showcase video {
@@ -123,8 +122,8 @@ section {
 }
 .text {
     position: relative;
-    padding:4rem;
-    margin-bottom:9rem;
+    padding:4em;
+    margin-bottom:5em;
     display:block;  
     justify-content: center;
     align-items: center;
@@ -172,7 +171,7 @@ section {
 /* ABOUT MENU */
 .about h3 {
     position: relative;
-    padding: 3em;
+    padding: 2em;
     display: block;  
     justify-content: center;
     align-items: center;
@@ -222,13 +221,13 @@ section {
 /* RESUME MENU */
 .resume h3 {
     position: relative;
-    padding:3rem;
-    margin-top: 4rem;
+    padding:4em;
+    margin-top: 2em;
     display:block;  
     justify-content: center;
     align-items: center;
     z-index: 10;
-    font-size: 3rem;
+    font-size: 3em;
     font-weight: 700;
     color: whitesmoke;
     line-height: 1em;
@@ -253,20 +252,20 @@ section {
     align-items: center;
     border-style: solid;
     border:round;
-    margin: 5rem;
+    margin: 5em;
     border-radius: 5px;
     background-image: url(/Jennywest715/img/theodor-vasile-y5WLkDYTwS0-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
     padding: 20px;
-    padding-top:1rem;
+    padding-top:1em;
     width:50%;
-    height: 40rem;
+    height: 40em;
     z-index: 10;
 }
 .contact h3 {
-    font-size: 3rem;
+    font-size: 3em;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -286,7 +285,7 @@ section {
 }
 .music {
     position: relative;
-    margin:5rem;
+    margin:5em;
 }
 .accordion-button {
     font-size:inherit;
@@ -297,7 +296,7 @@ section {
     position: relative;
     display:inline-flex;
     justify-content: space-around;
-    margin-top: 4rem;
+    margin-top: 4em;
     margin-bottom: 0;
     padding: 25px;
     width:100%;
