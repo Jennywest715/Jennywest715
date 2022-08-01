@@ -10,7 +10,7 @@ html, body {
     right: 0;
     width: 100%;
     min-height: 100%;
-    padding: 5rem;
+    padding: 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,8 +29,8 @@ html, body {
 }
 .text {
     position: relative;
-    padding:20rem;
-    margin-bottom:9rem;
+    padding:20em;
+    margin-bottom:9em;
     display:block;  
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ html, body {
     position: relative;
     display:inline-flex;
     justify-content: space-around;
-    margin-top: 4rem;
+    margin-top: 4em;
     margin-bottom: 0;
     padding: 25px;
     width:100%;
