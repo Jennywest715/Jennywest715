@@ -128,23 +128,38 @@
         <img src="/Jennywest715/img/Souphany J West.png" alt="resume" class="responsive" width="100%" height="100%">>
       </div>
 
-      <div id="contact" class="contact">
-        <form action="https://formsubmit.co/ff06c9d62ba1f9b6182ad10c934de34a" method="POST">
-            <h3>Contact Me</h3>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Your email">
-
-            <label for="subject">What's on your mind?</label>
-            <textarea id="subject" name="subject" placeholder="Type message here."></textarea>
-
-            <input type="submit" class="btn btn-dark btn-lg" value="Submit">
+      <div id="contact" class="container m-5 p-5 d-flex flex-column align-items-center">
+        <h1>Reach me here!</h1>
+        <form class="row" action="https://formsubmit.co/ff06c9d62ba1f9b6182ad10c934de34a" method="POST">
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</lable>
+            <input type="text" class="form-control" id="firstName" required>
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</lable>
+            <input type="text" class="form-control" id="lastName" required>
+          </div>
+          <div class="col-md-6">
+            <label for="emainInfo" class="form-label"> Email</label>
+            <input type="email" class="form-control" id="emailInfo" required>                 
+          </div>
+          <div class="col-md-6">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (661) 555-5555">
+          </div> 
+          <div class="col-md-12">
+            <label for="comments" class="form-label">What's on your mind?</label>
+            <textarea class="form-control" id="comments" rows="4"></textarea>         
+          </div>         
+          <div class="col-md-12 d-flex flex-row justify-content-center align-items-center">
+            <label for="customRange1" class="form-label">How are you feeling today? Blue being amazing and red being awful.</label>
+            <input type="range" class="form-range" id="customRange1">          
+          </div>  
+          <div class="col-md-12 d-flex flex-row justify-content-center align-items-center">
+            <button type="submit" class="btn btn-dark btn-lg">Submit</button>                 
+          </div>
         </form>
+                                                            
       </div>
 
       <div class="accordion accordion-flush" id="accordionFlushExample">
