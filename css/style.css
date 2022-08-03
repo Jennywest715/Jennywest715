@@ -254,7 +254,7 @@ section {
     padding: 20px;
     padding-top:1em;
     width:50vw;
-    height: 40em;
+    height: 100%;
     z-index: 10;
 }
 .container h3 {
