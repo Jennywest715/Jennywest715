@@ -183,8 +183,8 @@ section {
     font-family: 'Poppins', sans-serif;
 }
 .carousel {
-    /* height: 100%;
-    width: 100%; */
+    height: 75%;
+    width: 100%;
 }
 .carousel-item {
     height:75%;
