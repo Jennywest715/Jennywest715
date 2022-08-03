@@ -18,8 +18,7 @@
     font-size: 2.5em !important;
     font-weight: 700 !important;
     font-family: 'Mochiy Pop One', sans-serif !important;
-    white-space: pre-wrap;
-    
+    white-space: normal !important;   
 }
 .collapse {
     font-family: 'Mochiy Pop One', sans-serif !important;  
@@ -83,7 +82,7 @@ section {
 .showcase {
     position: absolute;
     right: 0;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     padding: 5em;
     display: flex;
@@ -106,7 +105,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.8;
@@ -184,8 +183,8 @@ section {
     font-family: 'Poppins', sans-serif;
 }
 .carousel {
-    height: 100%;
-    width: 50vw;
+    /* height: 100%;
+    width: 100%; */
 }
 .carousel-item {
     height:75%;
