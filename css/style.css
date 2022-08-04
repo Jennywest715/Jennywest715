@@ -188,7 +188,7 @@ section {
 }
 .carousel-item {
     height:75%;
-    min-height:300px;
+    min-height:10px;
     background:no-repeat scroll center scroll;
     -webkit-background-size:cover;
     background-size: cover;
