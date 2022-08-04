@@ -30,7 +30,7 @@ html, body {
 .text {
     position: relative;
     padding:20em;
-    margin-bottom:9em;
+    margin-bottom:2em;
     display:block;  
     justify-content: center;
     align-items: center;
