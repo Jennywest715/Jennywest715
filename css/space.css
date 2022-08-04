@@ -8,7 +8,7 @@ html, body {
 .showcase {
     position: relative;
     right: 0;
-    width: 100%;
+    width: 100vw;
     min-height: 100%;
     padding: 5em;
     display: flex;
