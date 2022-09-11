@@ -182,6 +182,7 @@ section {
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 }
+
 .carousel {
     height: 75%;
 }
@@ -191,6 +192,11 @@ section {
     background:no-repeat scroll center scroll;
     -webkit-background-size:cover;
     background-size: cover;
+}
+@media (min-width:995) {
+    .carousel-inner {
+        max-width:1280;
+    }
 }
 .carousel-item::before {
     content:"";
